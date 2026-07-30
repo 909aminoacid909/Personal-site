@@ -1,0 +1,28 @@
+.css-background {
+    background-color: #B4E1EB;
+opacity: 0.8;
+background-image:  radial-gradient(25% 25% at 25% 25%, #95BDD7 99%, transparent 101%), radial-gradient(25% 25% at 25% 25%, #95bdd7 99%, transparent 101%), radial-gradient(50% 50%, #B4E1EB 98%, transparent), repeating-conic-gradient(#B4E1EB 0 25%, #95BDD7 0 50%);
+background-position: 50px 50px, 0 0, 0 0, 25px 0;
+background-size: 100px 100px, 100px 100px, 50px 50px, 100px 50px;
+
+}
+
+.title-card {
+    margin-left: 10%;
+}
+
+.title-heading {
+    font-size: 5rem;
+}
+
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#about {
+    margin: 5% 2%;
+    
+
+}
