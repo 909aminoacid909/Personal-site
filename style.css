@@ -13,6 +13,10 @@ background-size: 100px 100px, 100px 100px, 50px 50px, 100px 50px;
 
 .title-heading {
     font-size: 5rem;
+    color: #4f5154 !important;
+}
+.main-heading {
+    color: #46494e
 }
 
 .instrument-serif-regular {
@@ -23,6 +27,78 @@ background-size: 100px 100px, 100px 100px, 50px 50px, 100px 50px;
 
 #about {
     margin: 5% 2%;
-    
+}
 
+#hobbies {
+    margin: 5% 2%;
+}
+
+.exhibit {
+    height: 200px;
+
+}
+
+#minipic {
+    height: 240px;
+}
+
+.footer {
+    height: 320px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hobby-container {
+    margin-top: 70px;
+}
+
+.top-hobby-container {
+    margin-top: 40px;
+}
+
+.second-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.final-image {
+    height: 300px;
+}
+.painting {
+    border: 5px solid #95BDD7;
+    border-radius: 3px; 
+}
+
+
+@media (max-width: 600px) {
+    .title-heading {
+        text-align: center;
+    }
+    .main-heading {
+        text-align: center;
+
+    }
+    .title-card {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .daisy-size {
+        margin: 10%;
+    }
+    h3 {
+        text-align: center;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    p {
+        text-align: center;
+    }
 }
