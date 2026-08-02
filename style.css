@@ -12,17 +12,22 @@ background-size: 100px 100px, 100px 100px, 50px 50px, 100px 50px;
 }
 
 .title-heading {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #4f5154 !important;
 }
 .main-heading {
-    color: #46494e
+    color: #46494e;
+    font-size: 5rem !important;
 }
 
 .instrument-serif-regular {
   font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+h3 {
+    font-size: 1.8rem;
 }
 
 #about {
